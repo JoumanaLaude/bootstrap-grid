@@ -22,7 +22,7 @@ footer {
 .jumbotron {
    margin: 0;
    padding: 30px;
-   background-image: linear-gradient(to right, #ffafbd, #ffc3a0 77%, #f8d58a);
+   background-image: linear-gradient(to right, #ffafbd, #ffc3a0 90%, #f8d58a);
    color: white;
 }
 
@@ -38,5 +38,7 @@ a:link, a:visited {
 
 .navbar {
    background-color: #ffc3a0;
-   font-size: 1.3rem;
 }
+
+.breadcrumb {
+   background-color: #fcf0f2;
