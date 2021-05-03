@@ -1,27 +1,28 @@
 body {
-   font-family: "Open Sans", sans-serif;
+   font-family: "Nunito", sans-serif;
 }
 
 h1, h2, h3 {
-   font-family: "Lobster", cursive;
+   font-family: "Original Surfer", cursive;
 }
 
 h2 {
-   color: #3046C5;
+   color: #ffafbd;
 }
 
 header h2 {
-   color: #CEC8FF;
+   color: white;
 }
 
 footer {
-   background-image: linear-gradient(#CEC8FF, white);
-   padding: 20px 0;
+   background: #ffc3a0; /*removed gradient on purpose */
+   padding: 15px 0;
 }
 
 .jumbotron {
+   margin: 0;
    padding: 30px;
-   background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+   background-image: linear-gradient(to right, #ffafbd, #ffc3a0 77%, #f8d58a);
    color: white;
 }
 
@@ -29,4 +30,13 @@ footer {
    padding: 50px 0;
    border-bottom: 1px ridge;
    min-height: 200px;
+}
+
+a:link, a:visited {
+   color: black;
+}
+
+.navbar {
+   background-color: #ffc3a0;
+   font-size: 1.3rem;
 }
