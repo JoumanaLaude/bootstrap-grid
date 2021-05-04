@@ -8,13 +8,14 @@ h1, h2, h3 {
 
 h2 {
    color: #ffafbd;
+   letter-spacing: 1.5px;
 }
 
 header h2 {
    color: white;
 }
 
-footer {
+.site-footer {
    background: #ffc3a0; /*removed gradient on purpose */
    padding: 15px 0;
 }
