@@ -43,3 +43,10 @@ a:link, a:visited {
 
 .breadcrumb {
    background-color: #fcf0f2;
+}
+
+.tab-content {
+   border: 1px solid #ddd;
+   border-top: none;
+   padding: 10px;
+}
